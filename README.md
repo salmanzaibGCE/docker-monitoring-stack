@@ -44,6 +44,10 @@ The monitoring stack was automated using a Bash script and deployed on an AWS EC
 
 ---
 
+## Project Scope
+
+This project focuses on infrastructure and container-level monitoring using cAdvisor. Application-level metrics were intentionally left out and can be added by instrumenting the application with Prometheus client libraries.
+
 ## Project Structure
 
 ```
